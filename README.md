@@ -1,37 +1,19 @@
-## Welcome to GitHub Pages
+**Background**
 
-You can use the [editor on GitHub](https://github.com/mallorykuba24/VBA-Homework---The-VBA-of-Wall-Street/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+You are well on your way to becoming a programmer and Excel master! In this homework assignment you will use VBA scripting to analyze real stock market data. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+**Stock Market Analyst**
 
-### Markdown
+- Create a script that will loop through all the stocks for one year and output the following information.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+  - The ticker symbol.
+  - Yearly change from opening price at the beginning of a given year to the closing price at the end of that year.
+  - The percent change from opening price at the beginning of a given year to the closing price at the end of that year.
+  - The total stock volume of the stock.
 
-```markdown
-Syntax highlighted code block
+- You should also have conditional formatting that will highlight positive change in green and negative change in red.
 
-# Header 1
-## Header 2
-### Header 3
+**BONUS**
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mallorykuba24/VBA-Homework---The-VBA-of-Wall-Street/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+- Your solution will also be able to return the stock with the "Greatest % increase", "Greatest % decrease" and "Greatest total volume". 
+- Make the appropriate adjustments to your VBA script that will allow it to run on every worksheet, i.e., every year, just by running the VBA script once.
